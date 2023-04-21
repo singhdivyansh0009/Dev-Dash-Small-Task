@@ -5,9 +5,6 @@
 }
 body,
 html {
-  background: url(img/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -145,13 +142,92 @@ li.dropdown {
     background: rgba(255, 255, 255, 0.432);
     border-radius: 25px;
 }
+
+
+.content{
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #A2C2F0;
+}
+#Home{
+position: relative;
+width: 100vw;
+height: 100vh;
+left: 0em;
+top: 0px;
+background: url("img/background.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+}
+#Explore{
+  justify-content: center;
+  position:relative;
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  top: 0;
+  background: #020000b4;
+  }
+  
+#About{
+      justify-content: center;
+      position:relative;
+      display: flex;
+      flex-direction:row;
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      top: 0;
+      background: #ffffffb4;
+  }
+#Contact{
+  position: relative;
+      width: 100%;
+      height: 50%;
+      margin-left: 0em;
+      top: 0em;
+      background: #7e36ea;
+      z-index: 0;
+}
+.blogs{
+  display: flex;
+  border: 0.2px solid rgba(91, 90, 90, 0.413);
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10em;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.475);
+  border-radius: 10%;
+  top: 8em;
+  width: 20em;
+  height: 30em;
+  padding-left: 10px;
+  font-family: sans-serif;
+  padding:2px;
+  font-size: 18px;
+  margin-left: 5vw;
+  background-color: #ea363678;
+}
+.blogs img{
+  position: relative;
+  left: 1.5em;
+  bottom:2em;
+}
+
+
+
 /* responsive */
 
 @media (max-width: 786px) {
-  body {
+  /* body {
     height: 100vh;
     width: 100vw;
-  }
+  } */
   .nav .icon {
     display: block;
   }
@@ -160,10 +236,7 @@ li.dropdown {
     width: 100%;
     height: 100vh;
     z-index: 1;
-    /* background: url(img/background.jpg); */
     background-size: contain;
-    /* filter: blur(8px); */
-    /* -webkit-filter: blur(8px); */
     background-color: rgba(229, 207, 67, 0.877);
     top: 70px;
     left: -100%;
@@ -209,10 +282,9 @@ li.dropdown {
     font-size: 30px;
   }
   .bio {
-     margin-top: 10em;
+    margin-top: 10em;
     text-align: center;
   }
-
 main {
   height: 35vh;
   width: 100vw;
@@ -221,5 +293,17 @@ main {
   position: absolute;
   top: 22em;
   /* left:116px; */
+}
+#Explore{
+  flex-direction:column;
+  width: 100%;
+  height: 200%;
+  }
+.blogs{
+  top: 0;
+  margin-top: 1em;
+}
+#Home{
+  height:80vh;
 }
 }
