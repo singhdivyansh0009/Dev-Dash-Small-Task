@@ -217,6 +217,7 @@ background-repeat: no-repeat;
   position: relative;
   left: 1.5em;
   bottom:2em;
+  border-radius: 5%;
 }
 
 
@@ -294,16 +295,22 @@ main {
   top: 22em;
   /* left:116px; */
 }
+.content{
+  width: 134vw;
+  height: 280vh;
+}
 #Explore{
   flex-direction:column;
-  width: 100%;
-  height: 200%;
+  width: 134vw;
+  height: 200vh;
   }
 .blogs{
   top: 0;
-  margin-top: 1em;
+  margin-top: 3em;
+  margin-left: 2em;
 }
 #Home{
   height:80vh;
+  width: 134vw;
 }
 }
