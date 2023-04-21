@@ -9,7 +9,6 @@
     <title>Silver Link</title>
 </head>
 <body>
-
    <div class="container">
           <!-- For navigation bar -->
           <nav class="nav">
@@ -31,7 +30,7 @@
                     <div class="dropdown-content">
                         <a href="#" style="color:black">About</a>
                         <a href="#" style="color:black">Team</a>
-                        <a href="#" style="color:black">Blog</a>
+                        <a href="#Explore" style="color:black">Blog</a>
                         <a href="#" style="color:black">Career</a>
                       </div>                  
                 </li>
@@ -46,26 +45,54 @@
                  <li><a href="login.html" class="l">Login/Sign up</a></li>
                </ul>
            </nav>
-      <!-- For Home page -->
-      <div class="bio">
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
-        <div class="container1">
-          <!-- Running text -->
-          <h1> <span class="auto-type"></span></h1>
+      <!-- For Home page --> 
+       <div class="content" >
+       <section id="Home">
+        <div class="bio">
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+          <div class="container1">
+            <!-- Running text -->
+            <h1> <span class="auto-type"></span></h1>
+          </div>
+          <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+      
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: ["A modern publishing platform", "Grow your audience","Build your online brand", " Start for Free!"],
+              typeSpeed: 100,
+              backSpeed: 50,
+              loop: true,
+            });
+          </script> 
         </div>
-        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-    
-        <script>
-          var typed = new Typed(".auto-type", {
-            strings: ["A modern publishing platform", "Grow your audience","Build your online brand", " Start for Free!"],
-            typeSpeed: 100,
-            backSpeed: 50,
-            loop: true,
-          });
-        </script> 
-  </div> 
+       </section>
+       <section id="Explore">
+        <div class="blogs">
+          <img src="img/blog3.jpg" alt="error" width="300px">
+          <span>	
+            <h1>Billboard</h1>
+            Best known for the Hot 100 and Billboard 200, which list the most popular songs and albums each week in the industry. Offers industry news, events, podcasts, and music streaming
+          </span>
+        </div>
+        <div class="blogs">
+          <img src="img/blog2.jpg" alt="error" width="300px" >
+          <span>	
+            <h1>Interviews</h1>
+            Podcasts, interviews, videos, and photo galleries covering the latest entertainment news in Australia and around the world. Articles primarily cover celebrity lifestyle, focusing on health, beauty, fashion, as well as travel.
+          </span>
+        </div>
+        <div class="blogs">
+          <img src="img/blog1.jpg" alt="error" width="300px">
+          <span>	
+           <h1>	Entrepreneur</h1>
+            Find business news, webinars and events, book recommendations, and interviews with successful entrepreneurs. The site is updated daily and even has a magazine for longer-form pieces.
+          </span>
+        </div>
+       </section>
+    </div>
+  </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
