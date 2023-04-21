@@ -303,11 +303,11 @@ main {
   flex-direction:column;
   width: 134vw;
   height: 200vh;
+  align-items: center;
   }
 .blogs{
   top: 0;
   margin-top: 3em;
-  margin-left: 2em;
 }
 #Home{
   height:80vh;
