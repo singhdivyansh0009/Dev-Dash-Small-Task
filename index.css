@@ -209,7 +209,8 @@ li.dropdown {
     font-size: 30px;
   }
   .bio {
-    margin-top: 30em;
+     margin-top: 10em;
+    text-align: center;
   }
 
 main {
